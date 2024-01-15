@@ -1,0 +1,29 @@
+*{
+    text-decoration: underline;
+}
+p{
+    color: aqua;
+}
+/* class = . */
+.para{
+    background-color: thistle;
+}
+
+/* id = # */
+#special{
+    background-color: purple;
+}
+
+/* priority / top-level css code */
+h1#joe{
+    color: turquoise;
+}
+
+
+h1.heading-1{
+    color: red;
+}
+
+h1{
+    color: blue;
+}

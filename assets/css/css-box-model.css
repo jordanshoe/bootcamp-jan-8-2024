@@ -1,0 +1,84 @@
+.box-model{
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.margin{
+    background-color: #434234;
+    margin: 20px;
+    margin: 30px 40px;
+    margin: 40px 50px 60px;
+    margin: 50px 60px 70px 80px;
+}
+.specific-margin{
+    background-color: #654678;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.padding{
+    padding: 20px;
+    padding: 25px 30px;
+    padding: 30px 35px 20px;
+    padding: 35px 30px 40px 50px;
+}
+.specific-padding{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 45px;
+    padding-left: 60px;
+}
+.dotted{
+    width: 300px;
+    border-width: 6px 10px 5px 8px;
+    border-style: dotted double dashed groove;
+    border-color: red blue green purple;
+    padding: 20px;
+    margin: 20px 10px;
+    
+}
+.border-radius{
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    border-radius: 5px 10px 15px 30px;
+}
+.circle{
+    border: 2px dashed red;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 30px;
+    text-align: center;
+}
+.scroll{
+    border: 4px solid green;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    text-align: center;
+    /* centering box */
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: x y blur color; */
+    box-shadow: 5px 5px 5px black;
+}
+.hidden{
+    border: 4px solid blue;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    margin: 40px auto;
+}
+.auto{
+    border: 4px solid red;
+    width: 20%;
+    height: 100px;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
